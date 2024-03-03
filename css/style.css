@@ -1,0 +1,103 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: linear-gradient(rgba(70, 64, 64, 0.5),rgba(0,0,0,0.6)),url("../images/pexels-designecologist-2526105.jpg");    
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    color: #ffffff;
+
+}
+
+.counter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 30px;
+    gap: 10px;
+}
+
+p{
+    font-size: 13px;
+
+}
+
+.newyear{
+    font-family:cursive;
+    font-size: 50px;
+    font-weight: 400px;
+    margin-top: 30px;
+}
+
+.box{
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    /* background-color: red; */
+}
+
+.box h2{
+    font-size: 20px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+.box small{
+    font-size: 10px;
+}
+
+@media (min-width:576px) {
+    .newyear{
+        font-size: 60px;
+    }
+    
+    p{
+        font-size: 18px;
+    }
+    .box h2{
+        font-size: 30px;
+    }
+    .box{
+        width: 100px;
+        height: 100px;
+    }
+    .box small{
+        font-size: 15px;
+    }
+}
+
+
+@media  (min-width:768px) {
+    .newyear{
+        font-size: 120px;
+    }
+
+    p{
+        font-size: 25px;
+    }
+    .box h2{
+        font-size: 50px;
+    }
+
+    .box{
+        width: 150px;
+        height: 150px;
+    }
+
+    .box small{
+        font-size: 20px;
+    }
+}
+
